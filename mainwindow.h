@@ -7,6 +7,7 @@
 #include <QMessageBox>
 #include "mainform.h"
 #include "registration.h"
+#include "adminwindow.h"
 #include <QDebug>
 
 
@@ -34,6 +35,7 @@ private:
     QString pass;
     MainForm *MF;
     Registration *RG;
+    AdminWindow *AW;
 };
 
 #endif // MAINWINDOW_H

@@ -27,14 +27,17 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     mainform.cpp \
-    registration.cpp
+    registration.cpp \
+    adminwindow.cpp
 
 HEADERS += \
         mainwindow.h \
     mainform.h \
-    registration.h
+    registration.h \
+    adminwindow.h
 
 FORMS += \
         mainwindow.ui \
     mainform.ui \
-    registration.ui
+    registration.ui \
+    adminwindow.ui
